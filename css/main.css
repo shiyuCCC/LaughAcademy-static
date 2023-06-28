@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%7CPalette+Mosaic%7CPoiret+One%7CInter');
+
+
+/*
+COLOR PALETTE
+#2966A4 - dark blue
+#F1AB23 - dark yellow
+#A72819 - red
+#5CBFE6 - light blue
+#57B9A5 - light green
+*/
+
+
+.color-darkblue{
+    color: #2966A4;
+}
+.font-weight6{
+    font-weight: 600 ;
+}
+
+nav a.active{
+    background-color: #c9dff1;
+    color: #2966A4 !important;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+nav a:hover{
+    color: #2966A4 ;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+body{
+    background-image: url("../images/stars.png");
+}
+h1{
+    font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: xx-large;
+}
+h2{
+    font-family:'Palette Mosaic', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+h3{
+    font-family:'Palette Mosaic', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+h4{
+    font-family:'Poiret One', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: x-large;
+}
+h5{
+    font-family:'Nunito','Ariel', Sans-serif;
+    font-size: large;
+}
+p{
+    font-family:'Nunito','Ariel', Sans-serif;
+    font-size: medium;
+
+}
+
+.container{
+    width: 90%;
+}
+
+.row{
+    padding: 1em;
+    
+}
+.card{
+    box-shadow: -3px -3px 20px rgb(152, 128, 118),3px 3px 20px rgb(85, 83, 91);
+}
+.card:hover{
+   box-shadow: -3px -3px 20px rgb(210, 66, 9),3px 3px 20px rgb(38, 35, 47);
+}
+
+.btn{
+    background-color: #F1AB23;
+    font-family:'Open Sans', 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color:#F9A909;
+}
+
+.btnblue{
+    background-color:#2966A4;
+    color:white;
+}
+
+.btnblue:hover{
+    background-color:#2966A4;
+    color:white;
+}
+
+a{
+    text-transform: uppercase;
+}
+
+.phoneblue{
+    color:#2966A4;
+    font-weight: 530;
+}
+
+.footermenu{
+    text-decoration: none;
+    color:black;
+    padding-right: 10px;
+}
+
+.socialicon{
+    color:black;
+    font-size: 1.5em;
+    padding-right: 10px;    
+
+}

@@ -1,0 +1,37 @@
+video {
+  width: 100%;
+}
+
+.bg-gray {
+  height: 500px;
+  background-color: #d9d9d9;
+  line-height: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding-bottom: 2em;
+}
+
+.position-relative{
+  padding-top: 2em;
+}
+
+.address {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.address-container,
+.map-container {
+  height: 500px;
+  padding: 0%;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  padding: 0%;
+  border: 0px;
+}

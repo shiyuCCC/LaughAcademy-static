@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%7CPalette+Mosaic%7CPoiret+One%7CInter');
+
+/*
+COLOR PALETTE
+#2966A4 - dark blue
+#F1AB23 - dark yellow
+#A72819 - red
+#5CBFE6 - light blue
+#57B9A5 - light green
+*/
+
+
+
+/* font color*/
+.fontyellow{
+    color:#F1AB23;
+}
+
+
+.fontblue{
+    color:#2966A4;
+}
+
+.fontred{
+    color:#A72819;
+}
+
+.fontblack{
+    color:black;
+}
+
+/*font size*/
+.fontlarge{
+    font-size: 2em;
+}
+
+.fontmd{
+    font-size: 1.5em;
+}
+
+.bigtitle{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.mdtitle{
+    font-size:2em;
+    text-transform:uppercase;
+    text-align: end;
+    letter-spacing: 10px;
+}
+
+/* buttons*/
+.btn-outline-red{
+    background-color: transparent;
+    border-color: #A72819;
+    color: #A72819;
+}
+
+.btn-outline-red:hover{
+    background-color: #A72819;
+    color:white;
+}
+
+
+
+/* clown button*/
+.moveleft{
+    position:relative;
+    right:35px;
+}
+
+.btnnon{
+    background:none;
+}
+
+.btnnon:hover{
+    
+    background:none;
+}
+
+/* gutter */
+.gx-3 > [class*='col-'] {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  /**/
+  .cardnobox{
+    box-shadow:none;
+    border: none;
+  }
+
+  .cardnobox:hover{
+    box-shadow: none;
+  }
+
+  .imgcontainer img{
+    object-fit:cover;
+
+  }
+
+  .register-img{
+    position:relative
+  }
+
+  .register-img:hover{
+    animation:shake 0.5s;
+    animation-iteration-count:1;
+  }
+
+  @keyframes shake{
+    0% { transform:translate(0,0);}
+    10% { transform:translate(-10px,0);}
+    20% { transform:translate(10px,0);}
+    30% { transform:translate(-10px,0);}
+    40% { transform:translate(10px,0);}
+    50% { transform:translate(-10px,0);}
+    60% { transform:translate(10px,0);}
+    70% { transform:translate(-10px,0);}
+    80% { transform:translate(10px,0);}
+    90% { transform:translate(-10px,0);}
+    100% { transform:translate(0,0);}
+  }
+
+
+
+/* media queries */
+@media screen and (max-width:1399px){
+    h1.bigtitle{
+        font-size: 3em;
+    }
+    h1.mdtitle{
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width:767px){
+    h3.bigtitle{
+        font-size:3em;
+    }
+    h1.bigtitle{
+        font-size: 2em;
+    }
+    h1.mdtitle{
+        font-size:1.5em;
+        letter-spacing: 3px;
+    }
+}
+
+/*cover image*/
+
+@media screen and (min-width:992px){
+    .moveright{
+        position:relative;
+        left:40px;
+    }
+}
+
+

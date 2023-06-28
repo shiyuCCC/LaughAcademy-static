@@ -1,0 +1,130 @@
+/*
+COLOR PALETTE
+#2966A4 - dark blue
+#F1AB23 - dark yellow
+#A72819 - red
+#5CBFE6 - light blue
+#57B9A5 - light green
+*/
+@import url("main.css");
+/*
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    border-style: ridge;
+}
+*/
+.card-footer{
+    background-color:transparent;
+    border-style: none;
+}
+.btn{
+    float: right;
+}
+
+.story-img{
+    object-position: left top;
+    object-fit:none;
+}
+
+#story1{
+    background-color:#5CBFE6;
+    color:black;
+}
+
+#story2{
+    background-color: #F1AB23;
+    color:white;
+}
+#story3{
+    background-color: #57B9A5;
+    color:white;
+}
+#students{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:700px;
+        perspective: 900px;
+}
+
+#students-title{
+    position:absolute;
+    top:20px;
+    left:0px;
+    
+}
+
+.stories{
+    position:absolute;
+    top: 100px;
+    width: 250px;
+    height:500px;
+    transform-style:preserve-3d;
+    animation:rotate 15s linear infinite;
+}
+.stories:hover{
+    animation-play-state: paused;
+}
+.story-item{
+    position:absolute;
+    left:0;
+    top: 80px;
+    width:100%;
+    height:80%;
+    text-align: center;
+}
+.story-text{
+    background-color: rgba(123, 102, 102, 0.3);
+    width: 60%;
+    font-size: 8px;
+    position: relative;
+    left:40%;
+    top:40%;
+    text-align: right;
+}
+
+.story-item:nth-child(1){
+    transform:rotateY(0deg) translateZ(100px);
+}
+.story-item:nth-child(2){
+    transform:rotateY(120deg) translateZ(100px);
+}
+.story-item:nth-child(3){
+    transform:rotateY(240deg) translateZ(100px);
+}
+.story-item:nth-child(4){
+    transform:rotateY(180deg) translateZ(300px);
+}
+.story-item:nth-child(5){
+    transform:rotateY(240deg) translateZ(300px);
+}
+.story-item:nth-child(6){
+    transform:rotateY(300deg) translateZ(300px);
+}
+@keyframes rotate{
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotatey(360deg);
+    }
+}
+
+.slogan{
+    font-family:'Poiret One','Courier New', Courier, monospace ;
+    font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#school-img{
+    width: 100%;
+}
+
+#detail0,#detail1,#detail2,#detail3,#detail4,#detail5,#detail6,#detail7,#detail8{
+    width:70%;
+    display:none;
+}
